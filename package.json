@@ -1,0 +1,33 @@
+{
+  "name": "swaglabs_cypress",
+  "version": "1.0.0",
+  "description": "Demo for Cypress Visual Regression - Issue#118",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:base": "cypress open --env type=base --config screenshotsFolder=cypress/snapshots/base",
+    "cy:actual": "cypress open --env type=actual --config screenshotsFolder=cypress/snapshots/actual"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRahulR/swaglabs_cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-visual-regression",
+    "swag-labs"
+  ],
+  "author": "RahulR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRahulR/swaglabs_cypress/issues"
+  },
+  "homepage": "https://github.com/MrRahulR/swaglabs_cypress#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  },
+  "dependencies": {
+    "cypress-visual-regression": "^1.6.3"
+  }
+}
