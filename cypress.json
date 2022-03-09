@@ -1,0 +1,7 @@
+{
+  "trashAssetsBeforeRuns": true,
+  "chromeWebSecurity": false,
+  "env": {
+    "failSilently": false
+  }
+}
