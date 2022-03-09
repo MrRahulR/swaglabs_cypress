@@ -1,4 +1,6 @@
-# swaglabs_cypress
+# Cypress Visual Regression Issue#118
+
+Issue URL - https://github.com/mjhea0/cypress-visual-regression/issues/118
 
 - Clone the repository from [GitHub](https://github.com/MrRahulR/swaglabs_cypress)
 
